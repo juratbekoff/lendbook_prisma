@@ -1,0 +1,39 @@
+1) prisma.io
+
+2) npm init -y
+
+3) npm install prisma typescript ts-node @types/node --save-dev
+
+4) tsconfig ->          {
+                            "compilerOptions": {
+                                "sourceMap": true,
+                                "outDir": "dist",
+                                "rootDir": "src",
+                                "strict": true,
+                                "lib": ["esnext"],
+                                "esModuleInterop": true
+                            }
+                        }
+
+5) npx prisma init
+
+6) create model
+
+7) change database's URL
+
+8) create database - pupils
+
+9) pupil_services 👇
+
+    - findAll
+    - create
+    - delete
+    - update
+
+10) pupil_routes 👇
+
+    - findAll
+    - create
+    - delete
+    - update
+
